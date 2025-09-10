@@ -1,0 +1,14 @@
+# node.js dependencies
+node_modules/
+
+#build outputs
+dist/
+build/
+
+# env files
+.env
+
+# os generated files
+.DS_Store
+
+
