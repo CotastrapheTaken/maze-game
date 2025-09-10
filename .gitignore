@@ -1,14 +1,20 @@
-# node.js dependencies
+# Node.js
 node_modules/
-
-#build outputs
+# Builds
 dist/
 build/
-
-# env files
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Env
 .env
-
-# os generated files
+.env.local
+.env.*.local
+# Editors/OS
+.vscode/
+.idea/
 .DS_Store
-
+Thumbs.db
 
